@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    text-align: center;
+    font-family: helvetica;    
+}
+header,nav,footer{
+    color: white;
+    padding: 2px;
+}
+header,footer{
+    background-color: darkgreen;
+}
+nav{
+    background-color: forestgreen;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+table,td,thead{
+    border: 1px darkgreen solid;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+section{
+    background-color: lightgreen;
+    width: 33.3%;
+    height: 550px;
+    padding-top: 10px;
+    overflow: auto;
+}
+h2{
+    width: 33%;
+    display: inline-block;
+}
+#sekcjaSrodek img{
+    width: 95%;
+    border-radius: 8px;
+}
+#sekcjaLewa td:hover{
+    background-color: forestgreen;
+}
