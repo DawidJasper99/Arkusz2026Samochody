@@ -43,6 +43,7 @@ h2{
     width: 95%;
     border-radius: 8px;
 }
-#sekcjaLewa td:hover{
+#sekcjaLewa tr:hover{
     background-color: forestgreen;
+
 }
